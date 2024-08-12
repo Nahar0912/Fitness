@@ -1,7 +1,8 @@
-/* navbar */
 /* Small device: upto 576 px 
 Medium Device: 576px to 992 px 
 Large Device: above 993 px  */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -396,4 +397,125 @@ footer{
     letter-spacing: 0%;
     text-align: left;
     margin-top: 40%;
+}
+
+/* Small devices: up to 576px */
+@media (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+
+    .nav-zone {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .banner-txt-area {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .banner-txt {
+        font-size: 40px;
+    }
+
+    .rect-1, .rect-2 {
+        position: static;
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .habits {
+        padding: 5%;
+    }
+
+    .habit-txt-area {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .habbit-cart-area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .habbit-cart-item {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .run-extra {
+        flex-direction: column;
+        padding: 5%;
+        margin: 20px 0;
+    }
+
+    .run-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .run-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .bmi-txt-area, .team-txt-area {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .bmi-cal-area, .team-area {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cal-area, .team-img-area {
+        width: 100%;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .cal-btn, .cal-btn-2 {
+        width: 100%;
+    }
+
+    .team-img {
+        width: 90%;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .fitness {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fitness-txt, .fitness-txt-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    hr {
+        width: 90%;
+    }
 }
