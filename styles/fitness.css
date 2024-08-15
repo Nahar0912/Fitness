@@ -28,7 +28,7 @@ hr{
     font-family: Inter;
     font-size: 15px;
     font-weight: 300;
-    line-height: 10px;
+    line-height: 20px;
     letter-spacing: 0px;
     text-align: center;
 }
@@ -181,7 +181,6 @@ nav{
 .habbit-cart-area{
     width: 1044px;
     height: 274px;
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -352,6 +351,9 @@ form{
 
 
 /* footer */
+
+
+
 footer{
     width: 1340px;
     height: 400px;
