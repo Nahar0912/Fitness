@@ -297,6 +297,13 @@ form{
     background: rgba(255, 255, 255, 0.1);
     margin-bottom: 3%;
 }
+.cal-btn-1{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 280px;
+    height: 43px;
+    padding: 12px 20px 12px 20px;
+}
 .cal-btn-2{
     width: 570px;
     height: 48px;
